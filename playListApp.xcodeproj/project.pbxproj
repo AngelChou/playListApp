@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		0BA8BE522253030B00AB7DFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8BE512253030B00AB7DFC /* AppDelegate.swift */; };
-		0BA8BE542253030B00AB7DFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA8BE532253030B00AB7DFC /* ViewController.swift */; };
 		0BA8BE572253030B00AB7DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BA8BE552253030B00AB7DFC /* Main.storyboard */; };
 		0BA8BE592253031100AB7DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BA8BE582253031100AB7DFC /* Assets.xcassets */; };
 		0BA8BE5C2253031100AB7DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BA8BE5A2253031100AB7DFC /* LaunchScreen.storyboard */; };
+		0BC4D37D22531525000A7DD8 /* PlayListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC4D37C22531525000A7DD8 /* PlayListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0BA8BE4E2253030B00AB7DFC /* playListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = playListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BA8BE512253030B00AB7DFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0BA8BE532253030B00AB7DFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0BA8BE562253030B00AB7DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BA8BE582253031100AB7DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BA8BE5B2253031100AB7DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BA8BE5D2253031100AB7DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BC4D37C22531525000A7DD8 /* PlayListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				0BA8BE512253030B00AB7DFC /* AppDelegate.swift */,
-				0BA8BE532253030B00AB7DFC /* ViewController.swift */,
+				0BC4D37C22531525000A7DD8 /* PlayListTableViewController.swift */,
 				0BA8BE552253030B00AB7DFC /* Main.storyboard */,
 				0BA8BE582253031100AB7DFC /* Assets.xcassets */,
 				0BA8BE5A2253031100AB7DFC /* LaunchScreen.storyboard */,
@@ -135,8 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BA8BE542253030B00AB7DFC /* ViewController.swift in Sources */,
 				0BA8BE522253030B00AB7DFC /* AppDelegate.swift in Sources */,
+				0BC4D37D22531525000A7DD8 /* PlayListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
